@@ -426,6 +426,7 @@ public final class DynaShopAPI
      * Search for empty slots in a specific shop.
      *
      * @param shopName shop name
+     * @parm do not use to check x store name may cause failures or inaccuracies.
      * @return Returns the index of an empty slot. (first slot only). Returns -1 if there is no empty slot.
      */
     public static int FindEmptySlot(String shopName)
